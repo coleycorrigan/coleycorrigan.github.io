@@ -16,7 +16,7 @@ header, h2, p{
 }
 
 h1 {
-width: 6em;
+width: 10em;
 margin-top: 1em;
 }
 
@@ -25,7 +25,7 @@ h1, nav {
 }
 
 nav ul li a{
-    color: rgb(90 120 150);
+    color: #9b574a;
 }
 
 section {
@@ -41,20 +41,22 @@ section.story2 h2 {
 }
 
 h2 {
-font-family: serif;
-font-weight: bold;
-color: rgb(90 120 150);
+font-family: "bourbon", serif;
+font-weight: 400;
+font-style: normal;
+color: #9b574a;
 }
 
 nav ul li{
 list-style-type: none;
-font-family: sans-serif;
-font-weight: bold;
-font-size: 1.3em;
+font-family: "bourbon", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
 }
 
 nav ul li a:hover{
-    color: #f00;
+    color: #9C3632;
 }
 
 a {
@@ -63,7 +65,9 @@ color: rgb(0, 0, 0);
 }
 
 p {
-font-family: sans-serif;
+font-family: "pulpo", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 section.story3 h2{
@@ -71,21 +75,24 @@ font-size: 1em;
 }
 
 section.story3 h2{
-border-top: solid 1px rgb(90 120 150);
+border-top: solid 1px #9C3632;
 padding-top: 0.5em;
 }
 
 footer {
-background-color: rgb(90 120 150);
+background-color: #9C3632;
 padding: 0.5em;
 color: rgb(255, 255, 255);
-font-family: sans-serif;
+font-family: "pulpo", serif;
+font-weight: 400;
+font-style: normal;
 box-sizing: border-box;
 }
 
 figcaption {
-font-style: italic;
-font-family: sans-serif;
+font-family: "pulpo", serif;
+font-weight: 400;
+font-style: normal;
 color: rgb(85, 85, 85);
 padding: 0.5em;
 }
@@ -103,7 +110,7 @@ margin-bottom: 1em;
 aside {
 padding: 1em 0.5em;
 margin-top: 1em;
-background-color: rgb(200 200 250);
+background-color: #e5a58c;
 }
 
 aside section.story2 h2 {
